@@ -1,0 +1,202 @@
+@import 'fonts.css';
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Arial Regular';
+  color: #383838;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+
+.header {
+  background-image: url(../img/background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 38%;
+  height: 200px;
+}
+
+/*About*/
+
+.container {
+  position: relative;
+  margin: 0 auto;
+
+  width: 984px;
+  max-width: 984px;
+}
+
+.about {
+  height: 500px;
+}
+
+.about__title {
+  font-size: 36px;
+  margin-top: 119px;
+}
+
+.about__logo {}
+
+.about__logo img {
+  position: absolute;
+
+  top: -190px;
+  left: 0;
+
+  height: 142px;
+  max-height: 142px;
+  border-radius: 50%
+}
+
+.info {
+  display: flex;
+  margin-top: 48px;
+}
+
+.info__about {
+  width: 75%;
+}
+
+.info__about h3 {
+  font-size: 21px;
+}
+
+.info__about p {
+  margin-top: 36px;
+  font-size: 18px;
+  color: #757575;
+}
+
+.info__contact {
+  width: 25%;
+  margin-left: 30px;
+}
+
+.info__logo {
+  display: flex;
+  margin-top: 36px;
+  align-items: center;
+}
+
+.info__logo img {
+  border-radius: 50%;
+}
+
+.info___logo_text {
+  margin-left: 6px;
+}
+
+.info___logo_text a {
+  color: #009DF2;
+}
+
+.info__contact_follow {
+  margin-top: 48px;
+}
+
+.links {
+  position: relative;
+  margin-top: 12px;
+}
+
+.links a {
+  display: block;
+  margin-top: 6px;
+  padding-left: 30px;
+
+  color: #009DF2;
+  text-decoration: none;
+}
+
+.links .lorem {
+  position: absolute;
+  left: 0;
+
+  height: 18px;
+  width: 18px;
+}
+
+.links .linkedin {
+  position: absolute;
+  left: 0;
+
+  height: 18px;
+  width: 18px;
+}
+
+/*Aria of focus*/
+
+.directions {
+  margin-top: 36px;
+}
+
+.directions div.directions__text {
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+
+  background-color: #ddded7;
+
+  height: 24px;
+}
+
+.politics,
+.health,
+.administration {
+  display: flex;
+  align-items: center;
+
+  margin-top: 6px;
+}
+
+.politics__logo,
+.health__logo,
+.administration__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 24px;
+  height: 24px;
+}
+
+.politics__logo {
+  background-color: #5A4D99;
+}
+
+.health__logo {
+  background-color: #BFCC36;
+}
+
+.administration__logo {
+  background-color: #1A587A;
+}
+
+.politics__logo img,
+.health__logo img,
+.administration__logo img {
+  width: 18px;
+  height: 18px;
+}
