@@ -29,6 +29,14 @@ h6 {
 
 /*Header*/
 
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
 .header {
   background-image: url(../img/background-image.jpg);
   background-repeat: no-repeat;
@@ -55,7 +63,14 @@ h6 {
   margin-top: 119px;
 }
 
-.about__logo {}
+.about__logo {
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.about__logo:hover img {
+	box-shadow: 0px 0px 15px #b3b0ad;
+}
 
 .about__logo img {
   position: absolute;
@@ -65,7 +80,9 @@ h6 {
 
   height: 142px;
   max-height: 142px;
-  border-radius: 50%
+  border-radius: 50%;
+
+  transition: all 0.3s ease;
 }
 
 .info {
@@ -146,8 +163,18 @@ h6 {
 
 /*Aria of focus*/
 
+.aria {
+	margin-top: 30px;
+	padding-bottom: 48px;
+
+}
+
 .directions {
+	display: flex;
+	flex-wrap: wrap;
   margin-top: 36px;
+
+  width: 500px;
 }
 
 .directions div.directions__text {
@@ -156,7 +183,7 @@ h6 {
   padding-left: 6px;
   padding-right: 6px;
 
-  background-color: #ddded7;
+  background-color: #f5f0f0;
 
   height: 24px;
 }
@@ -166,8 +193,24 @@ h6 {
 .administration {
   display: flex;
   align-items: center;
-
   margin-top: 6px;
+
+	cursor: pointer;
+	border: 1px solid #f5f0f0;
+	box-sizing: border-box;
+
+}
+
+.politics:hover {
+	box-shadow: 0px 0px 5px #f5f0f4;
+}
+
+.health:hover {
+	box-shadow: 0px 0px 5px #f5f0f4;
+}
+
+.administration:hover {
+	box-shadow: 0px 0px 5px #f5f0f4;
 }
 
 .politics__logo,
@@ -180,6 +223,14 @@ h6 {
 
   width: 24px;
   height: 24px;
+}
+
+.health {
+	margin-left: 12px;
+}
+
+.administration {
+	margin-top: 12px;
 }
 
 .politics__logo {
@@ -199,4 +250,135 @@ h6 {
 .administration__logo img {
   width: 18px;
   height: 18px;
+}
+
+/*Items*/
+
+.items {
+	padding-top: 48px;
+	padding-bottom: 48px;
+
+	background-color: #f5f0f0;
+}
+
+.search {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input {
+	width: 330px;
+	height: 30px;
+
+	background: url(../img/search.svg) no-repeat;
+  background-position: 2% 50%;
+  background-color: #fff;
+  background-size: 18px 18px;
+  padding-left: 30px;
+	font-size: 15px;
+
+	border-radius: 5px;
+	border: 1px solid #787575;
+	outline: none;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards__item {
+	display: flex;
+	flex-direction: column;
+	margin-top: 48px;
+	padding: 18px 18px;
+
+	background-color: #fff;
+
+	transition: all 0.3s ease;
+}
+
+.cards__item:hover {
+	box-shadow: 0px 0px 15px #b3b0ad;
+}
+
+
+.cards__item:nth-child(2) {
+	margin-right: 18px;
+	margin-left: 18px;
+}
+
+.cards__item_logo {
+	display: flex;
+}
+
+.cards__item_logo h2 {
+	margin-left: 12px;
+}
+
+.cards__item_text {
+	display: block;
+	margin-top: 18px;
+	padding-right: 24px;
+	/*width: 250px;*/
+	font-size: 15px;
+}
+
+.cards__item_format {
+	margin-top: 24px;
+
+	font-size: 15px;
+}
+
+.badge {
+	margin-top: 18px;
+	padding: 2px 2px;
+	width: 33px;
+
+	color: #009df2;
+	font-size: 12px;
+	
+	cursor: pointer;
+
+	border-radius: 4px;
+	border: 1px solid #009df2;
+}
+
+.badge:hover {
+	border: 1px solid #009df2;
+	color: #fff;
+	background-color: #009df2;
+}
+
+.text__right {
+	margin-top: 30px;
+	text-align: right;
+}
+
+.text__right p {
+	font-size: 12px;
+}
+
+.button {
+	margin-top: 12px;
+
+	width: 100%;
+	height: 30px;
+	border: none;
+	background-color: #FFA500;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+
+	transition: all 0.3s ease;
+}
+
+.button:hover {
+	background-color: #ff9100;
+}
+
+.wrapper {
+	margin-top: auto;
 }
