@@ -443,7 +443,7 @@ input {
   }
 
   .about__logo img {
-    padding-left: 18px;
+    margin-left: 18px;
   }
 
   .about__title {
@@ -501,8 +501,6 @@ input {
     margin-top: 48px;
   }
 
-  .info__contact {}
-
   .politics,
   .health,
   .administration {
@@ -512,8 +510,6 @@ input {
   .links .linkedin {
     bottom: 0;
   }
-
-  .info__about {}
 
   .search h1 {
     display: none;
