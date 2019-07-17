@@ -321,7 +321,6 @@ h2 {
 
 .items {
   padding-top: 48px;
-
   background-color: #f5f0f0;
 }
 
@@ -360,6 +359,7 @@ input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 48px;
 }
 
 .cards__item {
@@ -501,8 +501,6 @@ input {
   .turn_over_3 {
     margin-left: 18px;
   }
-
-  .cards__item {}
 
   .cards__item:nth-child(2) {}
 
