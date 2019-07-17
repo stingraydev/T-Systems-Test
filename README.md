@@ -8,7 +8,7 @@ You can see the project at the <a href="https://owiii.github.io/T-Systems-1/1.%2
 <ol>Compatible with older browsers.</ol>
 <ol>CSS code optimized.</ol>
 <ol>Adaptive layout.</ol>
-  <ul>
+  </ul>
 Made without Bootstrap 4.0 / CSS Grid
 
 
