@@ -142,6 +142,7 @@ h2 {
 .links .lorem {
   position: absolute;
   left: 0;
+  top: 0;
 
   height: 18px;
   width: 18px;
@@ -499,4 +500,39 @@ input {
 	.aria {
 		padding-bottom: 0;
 	}
-}
+	
+	.display_none {
+		display: none;
+	}
+	
+	.cards__item {
+		position: relative;
+		width: 100%;
+	}
+
+	.wrapper {
+		position: absolute;
+		right: 12px;
+		bottom: 12px;
+	}
+
+	.wrapper h1 {
+		font-size: 24px;
+	}
+
+	@media screen and (max-width: 480px) {
+	
+	input {
+		width: 100%;
+	}
+	
+	.search {
+		align-items: stretch;
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+
+
+
+	}
