@@ -40,7 +40,8 @@ h2 {
 .header {
   background-image: url(../img/background-image.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 38%;
+  background-size: cover;
+  background-position: 100% 40%;
   height: 200px;
 }
 
@@ -194,7 +195,7 @@ h2 {
 .directions {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 36px;
+  margin-top: 24px;
   padding-bottom: 48px;
   width: 500px;
 }
@@ -334,6 +335,10 @@ input {
   display: flex;
 }
 
+.cards__item_logo img {
+  border-radius: 5px;
+}
+
 .cards__item_logo h2 {
   margin-left: 12px;
 }
@@ -342,7 +347,7 @@ input {
   display: block;
   margin-top: 18px;
   padding-right: 24px;
-  /*width: 250px;*/
+  color: #757575;
   font-size: 15px;
 }
 
@@ -392,7 +397,7 @@ input {
   color: #fff;
   font-size: 15px;
   cursor: pointer;
-
+  outline: none;
   transition: all 0.3s ease;
 }
 
@@ -571,7 +576,10 @@ input {
 }
 
 @media screen and (max-width: 480px) {
-
+  
+  .header {
+    height: 150px;
+  }
 
   input {
     width: 100%;
