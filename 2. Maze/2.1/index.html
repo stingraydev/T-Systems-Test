@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Go through the MAZE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="field">
+    <div class="piece" style="top: 0; left: 0; display: none;"></div>
+    <div class="field__cell field__cell--up-left"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up-right"></div>
+    <div class="field__cell field__cell--up-left"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--up-left"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--up-left"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--up-left"></div>
+    <div class="field__cell field__cell--up"></div>
+    <div class="field__cell field__cell--up-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--up-left"></div>
+    <div class="field__cell field__cell--down-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--down-left"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--down-left"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--left"></div>
+    <div class="field__cell field__cell--down-left"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down-right"></div>
+    <div class="field__cell field__cell--right"></div>
+    <div class="field__cell field__cell--left field__cell--target"></div>
+    <div class="field__cell field__cell--down-left"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down"></div>
+    <div class="field__cell field__cell--down-right"></div>
+  </div>
+  <div class="controls">
+    <div>
+      <button class="start">Start</button>
+    </div>
+    <div class="result"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
