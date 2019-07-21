@@ -16,6 +16,8 @@ You can see the first option of project at the <a href="https://owiii.github.io/
 <a href="https://owiii.github.io/T-Systems-Test/2.%20Maze/2.2/index.html">Second</a>.</br>
 <a href="https://owiii.github.io/T-Systems-Test/2.%20Maze/2.3/index.html">Third</a>.(Not mine).
 <p></p>
-</hr>
+<hr/> 
+
+Contact: owiii.dev@gmail.com
 
 
