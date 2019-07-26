@@ -45,9 +45,12 @@
 </head>
 
 <body>
+	<div class="container">
+  	<button class="btn">Кнопка для тестирования псевдоклассов</button>
+  </div>
   <label>Изучай дружище</label>
   <form>
-    <input list="list" type="text" placeholder="Введите имя">
+    <input list="list" type="text" placeholder="Введите имя" disabled>
     <datalist id="list">
       <option value="Иван Федоров">
       <option value="Василий Леонидович">
@@ -57,8 +60,13 @@
     <input type="password" placeholder="Введите пароль">
     <input type="radio">
     <input type="radio">
-    <input type="checkbox" checked>
-    <input type="button" value="Кнопка">
+    <input id="test0" type="checkbox" checked>
+    <input id="test1" type="checkbox"><label for="test1">Первый</label>
+    <input id="test2" type="checkbox"><label for="test2">Второй</label>
+    <input id="test3" type="checkbox"><label for="test3">Третий</label>
+    <input id="test4" type="checkbox"><label for="test4">Четвертый</label>
+    <input id="test5" type="checkbox"><label for="test5">Пятый</label>
+    <input id="test6" type="button" value="Кнопка">
     <button>Кнопка</button>
     <input type="submit" value="Давай, нажми, дружище">
     <input type="reset" tabindex="3">
@@ -111,6 +119,20 @@
   </progress>
   <ruby>
     23<rt>ноябрь</rt></ruby>
+  <details>
+    <summary>что там внутри?</summary>
+    <p>ага, попался!</p>
+  </details>
+  <time>1957-10-04</time>
+  <video width="500" height="400" controls>
+    <source src="https://r1---sn-axq7sn7s.googlevideo.com/videoplayback?expire=1564196644&ei=w2o7XdbkMYrPkgaa4pyIAw&ip=192.126.155.167&id=o-AJjXY2seYUmO7eXfb07bZHrgwgfElXpwftfrM4-QKrde&itag=18&source=youtube&requiressl=yes&mime=video%2Fmp4&gir=yes&clen=192811775&ratebypass=yes&dur=4288.098&lmt=1514555163345166&fvip=1&beids=9466585&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=ALgxI2wwRgIhAPYijzgE2Lk5d21DF_BI30LoPtyJGFiZa_81d0BefxQGAiEAv5nf4pNtGKKADKMe-r_i8h9N_ntWJsfMrZFxItdGb6M%3D&video_id=ncaWoyLINoI&title=%D0%9A%D0%B0%D0%BA+%D0%BF%D1%80%D0%BE%D0%B9%D1%82%D0%B8+%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BF%D0%BE+JS+%D0%98+%D0%B7%D0%B0%D1%87%D0%B5%D0%BC+-+Odessa+Frontend+Community+Meetup+-+%D0%AE%D1%80%D0%B8%D0%B9+%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D0%B5%D0%BD%D0%BA%D0%BE&rm=sn-n4vls7e&fexp=9466585&req_id=f78babc6824aa3ee&ipbypass=yes&redirect_counter=2&cm2rm=sn-n3toxu-axql7e&cms_redirect=yes&mip=188.242.27.238&mm=29&mn=sn-axq7sn7s&ms=rdu&mt=1564174976&mv=m&mvi=0&nh=IgpwcjAyLmxlZDAzKgkxMjcuMC4wLjE&pl=20&lsparams=ipbypass,mip,mm,mn,ms,mv,mvi,nh,pl&lsig=AHylml4wRgIhAPZoyQylL9Qgx2aLZq4ztMuttMJHjzftQdEL8jXVVVATAiEA15OzW2Ct5XRgN6fr40eM6CubtX-b5T3iz17rZ45CkjI=" type='video/mp4'>
+    <track kind="subtitles" src="video/jane.en.srt" srclang="en" label="English">
+    <track kind="subtitles" src="video/jane.ua.srt" srclang="uk" label="Український">
+    <track kind="subtitles" src="video/jane.ru.srt" srclang="ru" label="Русский">
+     Тег video не поддерживается вашим браузером.
+  </video>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ncaWoyLINoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
 </body>
 
 </html>

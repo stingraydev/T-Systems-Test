@@ -7,3 +7,54 @@ audio {
   background-color: red;
   color: red;
 }
+
+input {
+  outline: none;
+}
+
+.btn {
+  transition: all 0.3s ease;
+  border: none;
+  /*background-color: #788299;*/
+  width: 100px;
+  height: 100px;
+}
+
+.btn:hover {
+  background-color: #788211;
+}
+
+.btn:active {
+  background-color: #127334;
+}
+
+button:default {
+  background-color: #983742;
+}
+
+.container {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+input:disabled {
+  background: #000;
+}
+
+
+input:enabled {
+  color: #22AA22;
+}
+
+input:disabled {
+  color: #D9D9D9;
+}
+
+input:focus {
+  border: 2px solid red;
+}
+
+a:link {
+  color: yellow;
+}
