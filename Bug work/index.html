@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Test</title>
+  <meta charset="UTF-8">
+  <title>Test</title>
 </head>
+
 <body>
-	<form target="_blank">
-		<input type="text" placeholder="Введите имя">
-		<input type="password" placeholder="Введите пароль">
-	</form>
-	
+  <label>Изучай дружище</label>
+  <form>
+    <input list="list" type="text" placeholder="Введите имя">
+    <datalist id="list">
+      <option value="Иван Федоров">
+      <option value="Василий Леонидович">
+      <option value="Крамол Петрович">
+      <option value="Артем Иванович">
+    </datalist>
+    <input type="password" placeholder="Введите пароль">
+    <input type="radio">
+    <input type="radio">
+    <input type="checkbox" checked>
+    <input type="button" value="Кнопка">
+    <button>Кнопка</button>
+    <input type="submit" value="Давай, нажми, дружище">
+    <input type="reset" tabindex="3">
+    <input type="file">
+    <input type="color">
+    <input type="datetime-local">
+    <input type="range">
+    <input type="search">
+  </form>
+  <p><a href="http://merjevich.ru" shape="rect" coords="299, 407, 650, 434" target="_self" title="Перейди на мой сайт...">Ссылка на сайт</a></p>
+  <p><a href="1.html" tabindex="1">Ссылка 1</a></p>
+  <p><a href="3.html" tabindex="2">Ссылка 3</a></p>
+  <abbr title="Таинственный персонаж, который пустился во все тяжкие...">OWIII</abbr>
+  <p>Текущее время: <object code="awdawdawdawdwadawd" width="600" height="100">
+    </object></p>
+  <img src="http://static.diary.ru/userdir/6/8/7/6/687665/29160535.jpg" width="640" height="300" alt="Навигация по сайту" usemap="#nav">
+  <map name="nav">
+    <area shape="circle" coords="50, 50, 50" href="#">
+  </map>
+  <img src="" alt="">
 </body>
+
 </html>
