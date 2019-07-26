@@ -58,3 +58,11 @@ input:focus {
 a:link {
   color: yellow;
 }
+
+a::before {
+	content: '12345';
+}
+
+::-moz-progress-bar {
+  background-color: red;
+}
