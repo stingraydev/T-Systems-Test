@@ -4,6 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Test</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    window.onload = function() {
+    var drawingCanvas = document.getElementById('smile');
+    if(drawingCanvas && drawingCanvas.getContext) {
+     var context = drawingCanvas.getContext('2d');
+     // Рисуем окружность 
+     context.strokeStyle = "#000";
+     context.fillStyle = "#fc0";
+     context.beginPath();
+     context.arc(100,100,50,0,Math.PI*2,true);
+     context.closePath();
+     context.stroke();
+     context.fill();
+     // Рисуем левый глаз 
+     context.fillStyle = "#fff";
+     context.beginPath();
+     context.arc(84,90,8,0,Math.PI*2,true);
+     context.closePath();
+     context.stroke();
+     context.fill();
+     // Рисуем правый глаз 
+     context.beginPath();
+     context.arc(116,90,8,0,Math.PI*2,true);
+     context.closePath();
+     context.stroke();
+     context.fill();
+     // Рисуем рот
+     context.beginPath();
+     context.moveTo(70,115);
+     context.quadraticCurveTo(100,130,130,115);
+     context.quadraticCurveTo(100,150,70,115); 
+     context.closePath();
+     context.stroke();
+     context.fill();
+    }
+   }
+  </script>
 </head>
 
 <body>
@@ -38,9 +76,41 @@
     </object></p>
   <img src="http://static.diary.ru/userdir/6/8/7/6/687665/29160535.jpg" width="640" height="300" alt="Навигация по сайту" usemap="#nav">
   <map name="nav">
-    <area shape="circle" coords="50, 50, 50" href="#">
+    <area class="area" title="Нажми, чтобы узнать что это такое" shape="circle" coords="320, 150, 100" href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%91%D0%B6">
   </map>
   <img src="" alt="">
+  <audio controls autoplay type="audio/mp3">
+    <source src="History.mp3">
+  </audio>
+  <div class="conteiner">
+    <canvas id="smile" width="200" height="200">
+      <p>Ваш браузер не поддерживает рисование.</p>
+    </canvas>
+  </div>
+  <menu>
+    <command onclick="alert('Слава роботам!')" label="Выполнить директиву №1">
+      <command onclick="alert('Сдавайтесь, людишки!')" label="Выполнить директиву №2">
+        <command onclick="alert('Убить всех человеков!')" label="Выполнить директиву №3">
+  </menu>
+  <input id="search"><label for="search">Поиск 1</label>
+  <label><input type="submit">Поиск 2</label>
+  <marquee behavior="alternate" direction="left" bgcolor="#ffcc00">
+    Lorem ipsum dolor sit amet...
+  </marquee>
+  <menu type="context">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+  </menu>
+  <progress value="5" max="10">
+    Баланс
+  </progress>
+  <ruby>
+    23<rt>ноябрь</rt></ruby>
 </body>
 
 </html>

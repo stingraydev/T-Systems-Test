@@ -1,0 +1,9 @@
+.area {
+  cursor: pointer;
+}
+
+audio {
+  width: 900px;
+  background-color: red;
+  color: red;
+}
