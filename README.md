@@ -12,7 +12,7 @@ Adaptive layout.</br>
 Made without Bootstrap 4.0 / CSS Grid
 
 <h3>2. Maze</h3>
-You can see the first option of project at the <a href="https://owiii.github.io/T-Systems-Test/2.%20Maze/2.3/index.html">link</a>.</br>
+You can see the project at the <a href="https://owiii.github.io/T-Systems-Test/2.%20Maze/2.3/index.html">link</a>.</br>
 <p></p>
 <hr/> 
 
